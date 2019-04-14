@@ -4,5 +4,7 @@ int main(){
 }
 
 int getmq(){
+	init_queue();
+	get_queue();
 	return 0;
 }
